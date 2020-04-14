@@ -483,9 +483,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3
-  #define DEFAULT_Kp 23.01
-  #define DEFAULT_Ki 1.88
-  #define DEFAULT_Kd 70.55
+  #define DEFAULT_Kp 25.22
+  #define DEFAULT_Ki 2.74
+  #define DEFAULT_Kd 58.12
 
 #endif // PIDTEMP
 
@@ -535,9 +535,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 88.86
-  #define DEFAULT_bedKi 17.32
-  #define DEFAULT_bedKd 303.98
+  #define DEFAULT_bedKp 59.99
+  #define DEFAULT_bedKi 11.51
+  #define DEFAULT_bedKd 208.40
 
 #endif // PIDTEMPBED
 
@@ -949,7 +949,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -46, -6, -2.1 }
+#define NOZZLE_TO_PROBE_OFFSET { -46, -6, -1.8 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
